@@ -1,6 +1,6 @@
 {
   "name": "randombytes",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "random bytes from browserify stand alone",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,7 @@
     "phantom": "zuul --phantom -- test.js",
     "local": "zuul --local --no-coverage -- test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:crypto-browserify/randombytes.git"
-  },
-  "keywords": [
-    "crypto",
-    "random"
-  ],
-  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/crypto-browserify/randombytes/issues"
-  },
-  "homepage": "https://github.com/crypto-browserify/randombytes",
   "browser": "browser.js",
   "devDependencies": {
     "phantomjs": "^1.9.9",
